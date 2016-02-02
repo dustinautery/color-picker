@@ -1,0 +1,30 @@
+.color-picker {
+	display: inline-block;
+	position: relative;
+}
+.color-picker input { display: none; }
+.canvas-wrapper {
+	border-radius: 1000px;
+	overflow: hidden;
+}
+.indicator {
+	top: calc(50% - 2rem);
+	left: 50%;
+	display: block;
+	position: absolute;
+	background-color: transparent;
+	transform: translate3d(-50%,-2rem,0);
+	pointer-events: none;
+}
+.indicator .selected-color {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	right: 2px;
+	bottom: 30%;
+	border-radius: 1000px;
+	z-index: -1;
+    background-color: #fff;
+    -webkit-filter: drop-shadow(0 5px 15px rgba(0,0,0,0.5));
+    filter: drop-shadow(0 5px 15px rgba(0,0,0,0.5));
+}
