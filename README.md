@@ -10,3 +10,5 @@ Installation:
 
 #### @TODO
 Currently, the color picker always initializes with white and centers. Need to use passed in color data binding for initial value and position.
+
+See the Pen [Color Picker](http://codepen.io/dustinautery/pen/YwjVBX/)</a> by [Dustin Autery](http://codepen.io/dustinautery) on [CodePen](http://codepen.io)
